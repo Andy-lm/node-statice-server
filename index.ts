@@ -4,7 +4,9 @@ import path from "path";
 import url from "url";
 
 const server = http.createServer();
-const publicDir = path.resolve(__dirname, "public");
+const publicDir = path.resolve(__dirname, "./public");
+console.log(publicDir,"-----publicDir");
+
 let cacheAge = 3600 * 24 * 365;
 
 server.on("request", (request: IncomingMessage, response: ServerResponse) => {

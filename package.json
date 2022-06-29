@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "commander": "^3.0.2",
+    "http-server": "^14.1.1"
   }
 }
